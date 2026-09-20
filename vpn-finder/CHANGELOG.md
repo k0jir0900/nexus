@@ -4,6 +4,12 @@ Una entrada por corrida que publico cambios.
 
 ## 2026-09-20
 
+- Total: 16945 IPs (16392 IPv4, 553 IPv6)
+- Altas: 482 / Bajas: 0
+- Por proveedor: ipvanish 3589, mullvad 1116, nordvpn 7887, pia 3351, surfshark 1002
+
+## 2026-09-20
+
 - Total: 16463 IPs (15910 IPv4, 553 IPv6)
 - Altas: 580 / Bajas: 0
 - Por proveedor: ipvanish 3589, mullvad 1116, nordvpn 7887, pia 3017, surfshark 854
