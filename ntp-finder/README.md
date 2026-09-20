@@ -15,9 +15,14 @@ There is no code here and nothing to install: download the file and use it.
 | File | What it is |
 |---|---|
 | `output/ntp-pool-v4.txt` | One IPv4 address per line, nothing else. This is the file a firewall loads. |
+| `output/ntp-pool-v4.csv` | `ip,fqdn` with a header. One row per IP / DNS name that served it, sorted by IP. |
+| `output/ntp-pool.json` | Totals, a continent / country / DNS record / IP tree, and per-server detail. |
 
-The list is regenerated every day. If a day brings no change, nothing is
-pushed.
+The `.txt` is what a firewall should load. The CSV and the JSON are diagnostic:
+they hold what the last run saw, which is not the same set of addresses. The
+`.txt` accumulates several days, so it carries IPs that today's DNS did not
+hand out; the CSV and the JSON carry IPs that did not answer the time probe and
+are therefore absent from the `.txt`. Do not expect the three to match.
 
 ## What it is for
 
@@ -62,9 +67,10 @@ anyone who does not maintain it.
 
 ## History
 
-Every change is a commit of the day, with the server count in the message. The
-history shows how servers join and leave the pool over time. It is never
-rewritten.
+There is a commit almost every day, with the server count in the message: the
+CSV and the JSON change with each run even when the address list does not. To
+see how servers join and leave the pool, read the diff of the `.txt`, not the
+list of commits. The history is never rewritten.
 
 ## Origin
 
