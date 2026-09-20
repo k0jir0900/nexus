@@ -65,7 +65,6 @@ Exact per-run counts are in `output/metadata.json`.
 | `output/segments/ipv6-64.tsv` | Same for `/64`. |
 | `output/deltas/YYYY-MM-DD.json` | Additions and removals for that run. Only created if there were any. |
 | `output/metadata.json` | Counts, timestamps and per-source health. |
-| `CHANGELOG.md` | Readable summary of every run that published changes. |
 
 The `.txt` files carry no headers and no comments: they are meant to be loaded
 straight into a firewall or a script.
