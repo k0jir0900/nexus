@@ -229,6 +229,9 @@
 2a02:6ea0:1508:7::/64	mullvad
 2a02:6ea0:1508:8::/64	mullvad
 2a02:6ea0:1508:9::/64	mullvad
+2a02:6ea0:1714::/64	mullvad
+2a02:6ea0:1714:1::/64	mullvad
+2a02:6ea0:1714:2::/64	mullvad
 2a02:6ea0:1901:2::/64	mullvad
 2a02:6ea0:1901:3::/64	mullvad
 2a02:6ea0:2901::/64	mullvad
