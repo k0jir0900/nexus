@@ -1,16 +1,16 @@
 {
  "schema_version": "1.0",
  "generator": "vpn-finder",
- "generated_at": "2026-09-26T00:00:00-03:00",
- "run_date": "2026-09-26",
+ "generated_at": "2026-09-27T00:00:00-03:00",
+ "run_date": "2026-09-27",
  "window_days": 30,
  "sources": {
   "nordvpn": {
    "url": "https://api.nordvpn.com/v1/servers?limit=0",
    "status": "ok",
    "error": null,
-   "addresses": 7667,
-   "hostnames": 7667
+   "addresses": 7664,
+   "hostnames": 7664
   },
   "mullvad": {
    "url": "https://api.mullvad.net/www/relays/all/",
@@ -23,54 +23,54 @@
    "url": "https://serverlist.piaservers.net/vpninfo/servers/v6",
    "status": "ok",
    "error": null,
-   "addresses": 1585,
-   "hostnames": 380
+   "addresses": 1575,
+   "hostnames": 377
   },
   "surfshark": {
    "url": "https://api.surfshark.com/v3/server/clusters",
    "status": "ok",
    "error": null,
-   "addresses": 266,
-   "hostnames": 134
+   "addresses": 269,
+   "hostnames": 137
   },
   "ipvanish": {
    "url": "https://configs.ipvanish.com/configs/configs.zip",
    "status": "ok",
    "error": null,
-   "addresses": 3381,
-   "hostnames": 3381
+   "addresses": 3521,
+   "hostnames": 3521
   }
  },
  "dns": {
-  "attempted": 3741,
-  "answered": 3515,
+  "attempted": 3731,
+  "answered": 3658,
   "empty": 0,
-  "failed": 226,
-  "with_ipv4": 3515,
+  "failed": 73,
+  "with_ipv4": 3658,
   "with_ipv6": 0,
-  "success_pct": 94.0
+  "success_pct": 98.0
  },
  "totals": {
-  "ips": 19273,
-  "ipv4": 18717,
+  "ips": 19491,
+  "ipv4": 18935,
   "ipv6": 556,
-  "pairs": 19286,
-  "hostnames": 12850,
-  "active": 14021,
-  "retained": 5252
+  "pairs": 19508,
+  "hostnames": 12854,
+  "active": 14151,
+  "retained": 5340
  },
  "changes": {
-  "added": 275,
+  "added": 218,
   "removed": 0
  },
  "cidr": {
-  "ipv4_blocks": 17855,
+  "ipv4_blocks": 18034,
   "ipv6_blocks": 556
  },
  "segments": {
   "ipv4_24": {
-   "total": 1726,
-   "exclusive": 1615,
+   "total": 1728,
+   "exclusive": 1617,
    "ambiguous": 111,
    "exclusive_pct": 93.6
   },
@@ -91,11 +91,11 @@
    "ipv6": 556
   },
   "pia": {
-   "ipv4": 4944,
+   "ipv4": 5086,
    "ipv6": 0
   },
   "surfshark": {
-   "ipv4": 1714,
+   "ipv4": 1790,
    "ipv6": 0
   },
   "ipvanish": {
