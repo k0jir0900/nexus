@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
  "generator": "vpn-finder",
- "generated_at": "2026-10-02T00:00:00-03:00",
- "run_date": "2026-10-02",
+ "generated_at": "2026-10-03T00:00:00-03:00",
+ "run_date": "2026-10-03",
  "window_days": 30,
  "sources": {
   "nordvpn": {
@@ -23,54 +23,54 @@
    "url": "https://serverlist.piaservers.net/vpninfo/servers/v6",
    "status": "ok",
    "error": null,
-   "addresses": 1580,
-   "hostnames": 379
+   "addresses": 1577,
+   "hostnames": 372
   },
   "surfshark": {
    "url": "https://api.surfshark.com/v3/server/clusters",
    "status": "ok",
    "error": null,
-   "addresses": 279,
-   "hostnames": 141
+   "addresses": 273,
+   "hostnames": 138
   },
   "ipvanish": {
    "url": "https://configs.ipvanish.com/configs/configs.zip",
    "status": "ok",
    "error": null,
-   "addresses": 3592,
-   "hostnames": 3592
+   "addresses": 3554,
+   "hostnames": 3554
   }
  },
  "dns": {
-  "attempted": 3740,
-  "answered": 3733,
+  "attempted": 3733,
+  "answered": 3692,
   "empty": 0,
-  "failed": 7,
-  "with_ipv4": 3733,
+  "failed": 41,
+  "with_ipv4": 3692,
   "with_ipv6": 0,
-  "success_pct": 99.8
+  "success_pct": 98.9
  },
  "totals": {
-  "ips": 20406,
-  "ipv4": 19850,
+  "ips": 20559,
+  "ipv4": 20003,
   "ipv6": 556,
-  "pairs": 20425,
-  "hostnames": 12871,
-  "active": 13743,
-  "retained": 6663
+  "pairs": 20578,
+  "hostnames": 12883,
+  "active": 13696,
+  "retained": 6863
  },
  "changes": {
-  "added": 169,
+  "added": 153,
   "removed": 0
  },
  "cidr": {
-  "ipv4_blocks": 18745,
+  "ipv4_blocks": 18847,
   "ipv6_blocks": 556
  },
  "segments": {
   "ipv4_24": {
-   "total": 1744,
-   "exclusive": 1633,
+   "total": 1747,
+   "exclusive": 1636,
    "ambiguous": 111,
    "exclusive_pct": 93.6
   },
@@ -83,7 +83,7 @@
  },
  "providers": {
   "nordvpn": {
-   "ipv4": 7896,
+   "ipv4": 7904,
    "ipv6": 0
   },
   "mullvad": {
@@ -91,11 +91,11 @@
    "ipv6": 556
   },
   "pia": {
-   "ipv4": 5662,
+   "ipv4": 5759,
    "ipv6": 0
   },
   "surfshark": {
-   "ipv4": 2127,
+   "ipv4": 2175,
    "ipv6": 0
   },
   "ipvanish": {
