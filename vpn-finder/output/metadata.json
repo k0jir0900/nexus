@@ -1,8 +1,8 @@
 {
  "schema_version": "1.0",
  "generator": "vpn-finder",
- "generated_at": "2026-10-03T00:00:00-03:00",
- "run_date": "2026-10-03",
+ "generated_at": "2026-10-04T00:00:00-03:00",
+ "run_date": "2026-10-04",
  "window_days": 30,
  "sources": {
   "nordvpn": {
@@ -23,56 +23,56 @@
    "url": "https://serverlist.piaservers.net/vpninfo/servers/v6",
    "status": "ok",
    "error": null,
-   "addresses": 1577,
-   "hostnames": 372
+   "addresses": 1601,
+   "hostnames": 383
   },
   "surfshark": {
    "url": "https://api.surfshark.com/v3/server/clusters",
    "status": "ok",
    "error": null,
-   "addresses": 273,
-   "hostnames": 138
+   "addresses": 277,
+   "hostnames": 142
   },
   "ipvanish": {
    "url": "https://configs.ipvanish.com/configs/configs.zip",
    "status": "ok",
    "error": null,
-   "addresses": 3554,
-   "hostnames": 3554
+   "addresses": 3579,
+   "hostnames": 3579
   }
  },
  "dns": {
-  "attempted": 3733,
-  "answered": 3692,
+  "attempted": 3725,
+  "answered": 3721,
   "empty": 0,
-  "failed": 41,
-  "with_ipv4": 3692,
+  "failed": 4,
+  "with_ipv4": 3721,
   "with_ipv6": 0,
-  "success_pct": 98.9
+  "success_pct": 99.9
  },
  "totals": {
-  "ips": 20559,
-  "ipv4": 20003,
+  "ips": 20702,
+  "ipv4": 20146,
   "ipv6": 556,
-  "pairs": 20578,
-  "hostnames": 12883,
-  "active": 13696,
-  "retained": 6863
+  "pairs": 20724,
+  "hostnames": 12885,
+  "active": 13749,
+  "retained": 6953
  },
  "changes": {
-  "added": 153,
+  "added": 143,
   "removed": 0
  },
  "cidr": {
-  "ipv4_blocks": 18847,
+  "ipv4_blocks": 18954,
   "ipv6_blocks": 556
  },
  "segments": {
   "ipv4_24": {
-   "total": 1747,
-   "exclusive": 1636,
+   "total": 1751,
+   "exclusive": 1640,
    "ambiguous": 111,
-   "exclusive_pct": 93.6
+   "exclusive_pct": 93.7
   },
   "ipv6_64": {
    "total": 441,
@@ -91,11 +91,11 @@
    "ipv6": 556
   },
   "pia": {
-   "ipv4": 5759,
+   "ipv4": 5843,
    "ipv6": 0
   },
   "surfshark": {
-   "ipv4": 2175,
+   "ipv4": 2234,
    "ipv6": 0
   },
   "ipvanish": {
