@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "microsoft",
- "generated_at": "2026-10-11T21:51:55-03:00",
+ "generated_at": "2026-10-12T00:17:52-03:00",
  "summary": {
   "servers_total": 12,
   "servers_verified": 12,
@@ -11,7 +11,7 @@
   "discovered_last_run": 12,
   "hosts": 1,
   "regions": 42,
-  "dns_queries": 141
+  "dns_queries": 142
  },
  "hosts": [
   {
@@ -43,12 +43,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 4
+   "offset_ms": 5
   },
   "20.101.57.9": {
    "in_edl": true,
@@ -56,12 +56,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 9
+   "offset_ms": 6
   },
   "20.189.79.72": {
    "in_edl": true,
@@ -69,12 +69,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 4
+   "offset_ms": 6
   },
   "40.81.94.65": {
    "in_edl": true,
@@ -82,12 +82,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 3
+   "offset_ms": 5
   },
   "40.81.188.85": {
    "in_edl": true,
@@ -95,8 +95,8 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
@@ -108,12 +108,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 3
+   "offset_ms": 5
   },
   "51.137.137.111": {
    "in_edl": true,
@@ -121,12 +121,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 3
+   "offset_ms": 4
   },
   "51.145.123.29": {
    "in_edl": true,
@@ -134,12 +134,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 3
+   "offset_ms": 8
   },
   "52.148.114.188": {
    "in_edl": true,
@@ -147,8 +147,8 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
@@ -160,12 +160,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 4
+   "offset_ms": -3
   },
   "104.40.149.189": {
    "in_edl": true,
@@ -173,12 +173,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 5
+   "offset_ms": 6
   },
   "168.61.215.74": {
    "in_edl": true,
@@ -186,12 +186,12 @@
     "time.windows.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-11",
-   "last_probe_at": "2026-10-11",
+   "last_seen_dns": "2026-10-12",
+   "last_probe_at": "2026-10-12",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 4
+   "offset_ms": 7
   }
  }
 }
