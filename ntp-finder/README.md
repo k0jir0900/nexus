@@ -1,78 +1,76 @@
-# Public NTP servers of pool.ntp.org
+# Public NTP servers
 
-Daily updated list of the IPv4 addresses of the public time servers that belong
-to [pool.ntp.org](https://www.ntppool.org).
+> **Disclaimer.** These lists are published for defensive cybersecurity only:
+> network defence, monitoring, detection and incident response. They must not
+> be used for malicious purposes, such as attacking, scanning, abusing or
+> overloading the listed servers, which are public services run by volunteers
+> and vendors.
 
-The pool.ntp.org project does not publish that list anywhere: it hands servers
-out over DNS, a few at a time. This repository rebuilds it by querying the pool
-every day, checks that each server really answers the time, and leaves the
-result in a file that is ready to use.
+Daily updated lists of the IPv4 addresses of public time (NTP) servers from
+the main providers, checked to answer the time, ready to load into a firewall,
+a SIEM or any tool that accepts an IP list. They are meant to help SOC teams
+tell legitimate time traffic apart from everything else on udp/123.
 
-There is no code here and nothing to install: download the file and use it.
+## Files
 
-## What is here
-
-| File | What it is |
+| File | Content |
 |---|---|
-| `output/ntp-pool-v4.txt` | One IPv4 address per line, nothing else. This is the file a firewall loads. |
-| `output/ntp-pool-v4.csv` | `ip,fqdn` with a header. One row per IP / DNS name that served it, sorted by IP. |
-| `output/ntp-pool.json` | Totals, a continent / country / DNS record / IP tree, and per-server detail. |
+| `ntp-all-v4.txt` | Every unique IP from every provider, one per line. **The list to load.** |
+| `ntp-all-v4.csv` | One row per IP: providers and hostnames that list it, first and last seen, latest probe result. |
+| `ntp-all.json` | Status of each provider's last update, and per-IP detail. |
+| `providers/ntp-<provider>-v4.txt` | One provider only. |
 
-The `.txt` is what a firewall should load. The CSV and the JSON are diagnostic:
-they hold what the last run saw, which is not the same set of addresses. The
-`.txt` accumulates several days, so it carries IPs that today's DNS did not
-hand out; the CSV and the JSON carry IPs that did not answer the time probe and
-are therefore absent from the `.txt`. Do not expect the three to match.
+Every per-provider `.txt` comes with a `.csv` and a `.json` of the same name
+with the detail of its last update.
 
-## What it is for
+## Providers
 
-- Allowing or monitoring time (NTP) traffic towards known public servers
-  instead of opening it to the whole internet.
-- Recognising in network logs that a connection went to a pool time server and
-  not to some arbitrary destination.
-- Keeping a current picture of which public time servers are reachable.
+| Provider | Hostnames | List |
+|---|---|---|
+| NTP Pool | `pool.ntp.org` and its country and continent zones | `providers/ntp-pool-v4.txt` |
+| Ubuntu | `ntp.ubuntu.com` | `providers/ntp-ubuntu-v4.txt` |
+| Microsoft | `time.windows.com` | `providers/ntp-microsoft-v4.txt` |
+| Apple | `time.apple.com`, `time.euro.apple.com`, `time.asia.apple.com` | `providers/ntp-apple-v4.txt` |
+| Google | `time.google.com`, `time1-4.google.com` | `providers/ntp-google-v4.txt` |
+| Cloudflare | `time.cloudflare.com` | `providers/ntp-cloudflare-v4.txt` |
+| Meta | `time.facebook.com`, `time1-5.facebook.com` | `providers/ntp-meta-v4.txt` |
+| AWS | `time.aws.com` | `providers/ntp-aws-v4.txt` |
 
-## How to use it
+## Use cases
 
-To download or link the file you need its direct address, which is the file
-address with `raw.githubusercontent.com` in front. The easiest way to get it:
-open the file above and press the **Raw** button; the address bar then shows
-the right URL.
+- **Outbound allowlist.** Allow udp/123 only towards `ntp-all-v4.txt` (or to
+  the providers your fleet actually uses) instead of to the whole internet.
+- **Detection of non-standard NTP.** Alert on udp/123 traffic to destinations
+  that are not on the list: misconfigured devices, unmanaged hosts, or NTP used
+  as a covert channel or for data exfiltration.
+- **Log enrichment.** Load `ntp-all-v4.csv` as a SIEM lookup table to tag
+  connections with the provider and hostname behind each IP.
+- **Triage.** Answer quickly whether an IP seen in an alert is a known public
+  time server and whose it is.
+- **Asset hygiene.** Find hosts that sync against the internet when they
+  should use the internal time servers.
+- **Reflection and amplification triage.** Distinguish expected replies from
+  public time servers from unsolicited NTP traffic hitting your network.
 
-Firewalls that accept external lists (EDL, feeds, dynamic objects) point at
-that `.txt` address and reload it on their own every so often. Once a day is
-plenty: the list does not change faster than that.
+## How to use
 
-If your firewall has no such option, download the `.txt` and load it by hand;
-it works the same, it just has to be repeated now and then.
+1. Open the file and press **Raw**. The address bar shows its direct URL
+   (`raw.githubusercontent.com/...`).
+2. Point the firewall's external list (EDL, feed, dynamic address object) or
+   the SIEM lookup at that URL.
+3. Refresh once a day. The lists are updated daily and do not change faster.
 
-No account or permission is needed: the repository is public and read-only for
-anyone who does not maintain it.
+Without external list support, download the `.txt` and load it by hand; it
+works the same and has to be repeated now and then.
 
-## What to know before using it
+## Limits
 
-- **It is not complete, and it cannot be.** The pool hands out its servers at
-  random and favours the faster ones, so the small ones show up only once in a
-  while. The list covers around 85% of the servers the pool reports and keeps
-  climbing over time, but it never reaches 100%.
-- **Being on the list does not mean being trustworthy.** Anyone can point their
-  server at the pool. This says "this IP is a known public time server", not
-  "this IP is safe".
-- **Vendor servers are missing.** Those of Microsoft, Apple, Google, Ubuntu or
-  your own ISP do not belong to pool.ntp.org and therefore do not appear here.
-  If you block everything that is not on the list, allow those separately.
-- **It is an aid, not a defence.** What actually protects you is having a few
-  internal machines in charge of time and letting only those reach the
-  internet. With that in place, a missing server on the list stops mattering.
-
-## History
-
-There is a commit almost every day, with the server count in the message: the
-CSV and the JSON change with each run even when the address list does not. To
-see how servers join and leave the pool, read the diff of the `.txt`, not the
-list of commits. The history is never rewritten.
-
-## Origin
-
-The file is generated by an automated bot, once a day. Only the result lands
-here; the code that produces it lives in another repository.
+- **The lists are not exhaustive.** Some providers hand out servers at random
+  or depending on the region that asks. Coverage grows over the days but never
+  reaches 100%: do not block critical time traffic only on these lists.
+- **Listed does not mean trusted.** An IP here is a known public time server,
+  not a safe destination for anything else.
+- **Your ISP's time servers are not included.** Allow them separately if you
+  use them.
+- **An aid, not a control.** The strong control is architecture: a few
+  internal time servers that are the only ones allowed to reach the internet.

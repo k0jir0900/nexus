@@ -1,12 +1,12 @@
 {
  "schema_version": "1.0",
  "generator": "ntp-finder",
- "generated_at": "2026-10-11T21:53:36-03:00",
+ "generated_at": "2026-10-11T22:29:21-03:00",
  "summary": {
   "servers_total": 3682,
   "providers": {
    "ntppool": {
-    "file": "output/ntp-pool-v4.txt",
+    "file": "providers/ntp-pool-v4.txt",
     "edl_servers": 3549,
     "last_run": {
      "started_at": "2026-10-11T00:00:00-03:00",
