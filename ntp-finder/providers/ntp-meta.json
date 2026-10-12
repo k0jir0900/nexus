@@ -1,0 +1,154 @@
+{
+ "schema_version": "1.0",
+ "generator": "ntp-finder",
+ "provider": "meta",
+ "generated_at": "2026-10-11T21:52:53-03:00",
+ "summary": {
+  "servers_total": 5,
+  "servers_verified": 5,
+  "servers_probed": 5,
+  "window_days": 14,
+  "discovered_last_run": 5,
+  "hosts": 6,
+  "regions": 42,
+  "dns_queries": 787
+ },
+ "hosts": [
+  {
+   "host": "time.facebook.com",
+   "canonical": "time.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 5,
+   "ips": [
+    "129.134.25.123",
+    "129.134.26.123",
+    "129.134.27.123",
+    "129.134.28.123",
+    "129.134.29.123"
+   ]
+  },
+  {
+   "host": "time1.facebook.com",
+   "canonical": "time1.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 1,
+   "ips": [
+    "129.134.28.123"
+   ]
+  },
+  {
+   "host": "time2.facebook.com",
+   "canonical": "time2.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 1,
+   "ips": [
+    "129.134.29.123"
+   ]
+  },
+  {
+   "host": "time3.facebook.com",
+   "canonical": "time3.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 1,
+   "ips": [
+    "129.134.25.123"
+   ]
+  },
+  {
+   "host": "time4.facebook.com",
+   "canonical": "time4.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 1,
+   "ips": [
+    "129.134.26.123"
+   ]
+  },
+  {
+   "host": "time5.facebook.com",
+   "canonical": "time5.facebook.com",
+   "zone": "facebook.com",
+   "authoritative_ok": true,
+   "found": 1,
+   "ips": [
+    "129.134.27.123"
+   ]
+  }
+ ],
+ "servers": {
+  "129.134.25.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.facebook.com",
+    "time3.facebook.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 1,
+   "offset_ms": 3
+  },
+  "129.134.26.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.facebook.com",
+    "time4.facebook.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 1,
+   "offset_ms": 2
+  },
+  "129.134.27.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.facebook.com",
+    "time5.facebook.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 1,
+   "offset_ms": 4
+  },
+  "129.134.28.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.facebook.com",
+    "time1.facebook.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 1,
+   "offset_ms": 4
+  },
+  "129.134.29.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.facebook.com",
+    "time2.facebook.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 1,
+   "offset_ms": 4
+  }
+ }
+}

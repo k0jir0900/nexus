@@ -1,0 +1,57 @@
+{
+ "schema_version": "1.0",
+ "generator": "ntp-finder",
+ "provider": "cloudflare",
+ "generated_at": "2026-10-11T21:52:48-03:00",
+ "summary": {
+  "servers_total": 2,
+  "servers_verified": 2,
+  "servers_probed": 2,
+  "window_days": 14,
+  "discovered_last_run": 2,
+  "hosts": 1,
+  "regions": 42,
+  "dns_queries": 130
+ },
+ "hosts": [
+  {
+   "host": "time.cloudflare.com",
+   "canonical": "time.cloudflare.com",
+   "zone": "time.cloudflare.com",
+   "authoritative_ok": true,
+   "found": 2,
+   "ips": [
+    "162.159.200.1",
+    "162.159.200.123"
+   ]
+  }
+ ],
+ "servers": {
+  "162.159.200.1": {
+   "in_edl": true,
+   "hosts": [
+    "time.cloudflare.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 3,
+   "offset_ms": 8
+  },
+  "162.159.200.123": {
+   "in_edl": true,
+   "hosts": [
+    "time.cloudflare.com"
+   ],
+   "first_seen": "2026-10-11",
+   "last_seen_dns": "2026-10-11",
+   "last_probe_at": "2026-10-11",
+   "probe_ok": true,
+   "probe_error": null,
+   "stratum": 3,
+   "offset_ms": 6
+  }
+ }
+}
