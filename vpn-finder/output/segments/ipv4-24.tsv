@@ -167,6 +167,7 @@
 45.139.252.0/24	surfshark
 45.139.253.0/24	surfshark
 45.141.153.0/24	nordvpn
+45.142.26.0/24	mullvad
 45.144.115.0/24	surfshark
 45.144.227.0/24	surfshark
 45.149.3.0/24	surfshark
@@ -769,6 +770,7 @@
 149.40.59.0/24	nordvpn
 149.40.62.0/24	nordvpn
 149.40.63.0/24	AMBIGUO
+149.50.209.0/24	surfshark
 149.50.213.0/24	nordvpn
 149.50.214.0/24	nordvpn
 149.50.217.0/24	nordvpn
