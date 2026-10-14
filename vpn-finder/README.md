@@ -48,23 +48,24 @@ instead of being papered over.
 Only Mullvad hands over IPv6 directly. For the rest it comes from resolving
 AAAA over the hostnames, and most have no AAAA record. IPv6 coverage is
 therefore much lower than IPv4: that is a fact of the ecosystem, not a failure.
-Exact per-run counts are in `output/metadata.json`.
+Exact per-run counts are in `vpn-all.json`.
 
 ## Formats
 
 | File | Contents |
 |---|---|
-| `output/ipv4.txt` | One IPv4 per line, numeric order. |
-| `output/ipv6.txt` | One IPv6 per line, RFC 5952 compressed form, numeric order. |
-| `output/cidr/ipv4.txt` | The same IPv4 addresses aggregated to the **exact** minimal CIDR. |
-| `output/cidr/ipv6.txt` | Same for IPv6. |
-| `output/by-provider/<provider>-ipv4.txt` | Only that provider's IPv4 addresses. |
-| `output/by-provider/<provider>-ipv6.txt` | Same for IPv6. May be empty. |
-| `output/attributed.csv` | `ip,familia,proveedor,hostname,primera_vez,ultima_vez` (column names are literal, as emitted). One row per IP/hostname pair. |
-| `output/segments/ipv4-24.tsv` | `segment <TAB> provider`, or the literal `AMBIGUO` when more than one provider is seen. |
-| `output/segments/ipv6-64.tsv` | Same for `/64`. |
-| `output/deltas/YYYY-MM-DD.json` | Additions and removals for that run. Only created if there were any. |
-| `output/metadata.json` | Counts, timestamps and per-source health. |
+| `vpn-all-v4.txt` | One IPv4 per line, numeric order. **The list to load.** |
+| `vpn-all-v6.txt` | One IPv6 per line, RFC 5952 compressed form, numeric order. |
+| `vpn-all-v4.csv` | `ip,familia,proveedor,hostname,primera_vez,ultima_vez` (column names are literal, as emitted). One row per IP/hostname pair. |
+| `vpn-all-v6.csv` | Same for IPv6. |
+| `vpn-all.json` | Counts, timestamps and per-source health. |
+| `providers/vpn-<provider>-v4.txt` | Only that provider's IPv4 addresses. |
+| `providers/vpn-<provider>-v6.txt` | Same for IPv6. May be empty. |
+| `providers/vpn-<provider>-v4.csv`, `-v6.csv` | The detail rows of that provider only. |
+| `cidr/vpn-cidr-v4.txt` | The same IPv4 addresses aggregated to the **exact** minimal CIDR. |
+| `cidr/vpn-cidr-v6.txt` | Same for IPv6. |
+| `segments/vpn-segments-v4-24.tsv` | `segment <TAB> provider`, or the literal `AMBIGUO` when more than one provider is seen. |
+| `segments/vpn-segments-v6-64.tsv` | Same for `/64`. |
 
 The `.txt` files carry no headers and no comments: they are meant to be loaded
 straight into a firewall or a script.
@@ -76,16 +77,16 @@ out individually as `/32` or `/128`.
 ## Cadence and stability
 
 One run per day. The repository only receives a commit if the content really
-changed: `metadata.json` carries timestamps but is not enough on its own to
+changed: `vpn-all.json` carries timestamps but is not enough on its own to
 produce a commit, so a `git diff` shows real changes and not formatting noise.
 
 An IP that disappears from the inventory **is not deleted right away**: it is
 kept for 30 days with its `ultima_vez`, and only then retired. VPN servers
 rotate, and an IP retired yesterday is still useful evidence today. That
-difference is in `metadata.json` as `active` versus `retained`.
+difference is in `vpn-all.json` as `active` versus `retained`.
 
 If a source does not respond, its previous list is kept and marked `stale` in
-`metadata.json`. A provider's empty list is never published. If the total were
+`vpn-all.json`. A provider's empty list is never published. If the total were
 to drop by more than 20% in one run, nothing is published: a jump like that is
 almost always a broken source, not a real infrastructure change.
 
