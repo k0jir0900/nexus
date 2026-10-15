@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "ubuntu",
- "generated_at": "2026-10-14T00:18:05-03:00",
+ "generated_at": "2026-10-15T00:16:32-03:00",
  "summary": {
   "servers_total": 4,
   "servers_verified": 4,
@@ -35,12 +35,12 @@
     "ntp.ubuntu.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-14",
-   "last_probe_at": "2026-10-14",
+   "last_seen_dns": "2026-10-15",
+   "last_probe_at": "2026-10-15",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": 1
+   "offset_ms": 0
   },
   "185.125.190.56": {
    "in_edl": true,
@@ -48,12 +48,12 @@
     "ntp.ubuntu.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-14",
-   "last_probe_at": "2026-10-14",
+   "last_seen_dns": "2026-10-15",
+   "last_probe_at": "2026-10-15",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": -6
+   "offset_ms": -10
   },
   "185.125.190.57": {
    "in_edl": true,
@@ -61,12 +61,12 @@
     "ntp.ubuntu.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-14",
-   "last_probe_at": "2026-10-14",
+   "last_seen_dns": "2026-10-15",
+   "last_probe_at": "2026-10-15",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": -8
+   "offset_ms": -11
   },
   "185.125.190.58": {
    "in_edl": true,
@@ -74,12 +74,12 @@
     "ntp.ubuntu.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-14",
-   "last_probe_at": "2026-10-14",
+   "last_seen_dns": "2026-10-15",
+   "last_probe_at": "2026-10-15",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": -4
+   "offset_ms": -11
   }
  }
 }
