@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "meta",
- "generated_at": "2026-10-16T00:18:07-03:00",
+ "generated_at": "2026-10-17T00:19:58-03:00",
  "summary": {
   "servers_total": 5,
   "servers_verified": 5,
@@ -11,7 +11,7 @@
   "discovered_last_run": 5,
   "hosts": 6,
   "regions": 42,
-  "dns_queries": 787
+  "dns_queries": 784
  },
  "hosts": [
   {
@@ -87,8 +87,8 @@
     "time3.facebook.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-16",
-   "last_probe_at": "2026-10-16",
+   "last_seen_dns": "2026-10-17",
+   "last_probe_at": "2026-10-17",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -101,12 +101,12 @@
     "time4.facebook.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-16",
-   "last_probe_at": "2026-10-16",
+   "last_seen_dns": "2026-10-17",
+   "last_probe_at": "2026-10-17",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 13
+   "offset_ms": 11
   },
   "129.134.27.123": {
    "in_edl": true,
@@ -115,12 +115,12 @@
     "time5.facebook.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-16",
-   "last_probe_at": "2026-10-16",
+   "last_seen_dns": "2026-10-17",
+   "last_probe_at": "2026-10-17",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 13
+   "offset_ms": 12
   },
   "129.134.28.123": {
    "in_edl": true,
@@ -129,12 +129,12 @@
     "time1.facebook.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-16",
-   "last_probe_at": "2026-10-16",
+   "last_seen_dns": "2026-10-17",
+   "last_probe_at": "2026-10-17",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 13
+   "offset_ms": 11
   },
   "129.134.29.123": {
    "in_edl": true,
@@ -143,12 +143,12 @@
     "time2.facebook.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-16",
-   "last_probe_at": "2026-10-16",
+   "last_seen_dns": "2026-10-17",
+   "last_probe_at": "2026-10-17",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 12
+   "offset_ms": 11
   }
  }
 }
