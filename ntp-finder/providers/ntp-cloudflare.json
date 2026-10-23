@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "cloudflare",
- "generated_at": "2026-10-22T00:19:35-03:00",
+ "generated_at": "2026-10-23T00:21:49-03:00",
  "summary": {
   "servers_total": 2,
   "servers_verified": 2,
@@ -33,12 +33,12 @@
     "time.cloudflare.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 3,
-   "offset_ms": 16
+   "offset_ms": 9
   },
   "162.159.200.123": {
    "in_edl": true,
@@ -46,12 +46,12 @@
     "time.cloudflare.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 3,
-   "offset_ms": 16
+   "offset_ms": 8
   }
  }
 }

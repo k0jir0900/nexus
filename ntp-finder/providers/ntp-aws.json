@@ -2,16 +2,16 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "aws",
- "generated_at": "2026-10-22T00:20:13-03:00",
+ "generated_at": "2026-10-23T00:22:27-03:00",
  "summary": {
   "servers_total": 80,
-  "servers_verified": 79,
+  "servers_verified": 78,
   "servers_probed": 85,
   "window_days": 14,
-  "discovered_last_run": 80,
+  "discovered_last_run": 85,
   "hosts": 1,
   "regions": 42,
-  "dns_queries": 146
+  "dns_queries": 155
  },
  "hosts": [
   {
@@ -19,7 +19,7 @@
    "canonical": "time.aws.com",
    "zone": "time.aws.com",
    "authoritative_ok": true,
-   "found": 80,
+   "found": 85,
    "ips": [
     "3.6.43.90",
     "3.8.121.220",
@@ -49,10 +49,15 @@
     "13.238.254.157",
     "13.239.60.174",
     "13.244.103.142",
+    "13.244.141.81",
     "13.244.144.114",
+    "13.244.161.105",
     "13.244.167.235",
+    "13.245.234.238",
+    "13.246.8.192",
     "13.246.36.21",
     "13.246.139.30",
+    "13.246.221.109",
     "15.152.48.157",
     "15.152.63.145",
     "15.152.156.115",
@@ -111,12 +116,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 6
+   "offset_ms": 3
   },
   "3.8.121.220": {
    "in_edl": true,
@@ -124,12 +129,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 17
+   "offset_ms": 5
   },
   "3.10.212.175": {
    "in_edl": true,
@@ -137,12 +142,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 18
+   "offset_ms": 2
   },
   "3.25.117.193": {
    "in_edl": true,
@@ -150,12 +155,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -39
+   "offset_ms": -36
   },
   "3.25.128.189": {
    "in_edl": true,
@@ -163,12 +168,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -30
+   "offset_ms": -42
   },
   "3.26.39.65": {
    "in_edl": true,
@@ -176,12 +181,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -33
+   "offset_ms": -34
   },
   "3.26.223.119": {
    "in_edl": true,
@@ -189,12 +194,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -31
+   "offset_ms": -41
   },
   "3.86.4.106": {
    "in_edl": true,
@@ -202,12 +207,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "3.87.127.143": {
    "in_edl": true,
@@ -215,12 +220,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 5
   },
   "3.94.91.31": {
    "in_edl": true,
@@ -228,12 +233,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "3.109.185.52": {
    "in_edl": true,
@@ -241,12 +246,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 9
+   "offset_ms": 0
   },
   "3.111.45.100": {
    "in_edl": true,
@@ -254,12 +259,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 5
+   "offset_ms": 1
   },
   "13.40.94.30": {
    "in_edl": true,
@@ -267,12 +272,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 19
+   "offset_ms": 7
   },
   "13.40.171.61": {
    "in_edl": true,
@@ -280,12 +285,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 3
   },
   "13.40.182.125": {
    "in_edl": true,
@@ -293,12 +298,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 6
   },
   "13.42.41.32": {
    "in_edl": true,
@@ -306,12 +311,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 1
   },
   "13.200.20.166": {
    "in_edl": true,
@@ -319,12 +324,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 6
+   "offset_ms": -2
   },
   "13.208.246.234": {
    "in_edl": true,
@@ -332,12 +337,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 2
   },
   "13.211.132.213": {
    "in_edl": true,
@@ -345,10 +350,10 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
-   "probe_ok": true,
-   "probe_error": null,
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
+   "probe_ok": false,
+   "probe_error": "timeout",
    "stratum": 4,
    "offset_ms": -29
   },
@@ -358,12 +363,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "13.232.205.250": {
    "in_edl": true,
@@ -371,12 +376,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 1
+   "offset_ms": 6
   },
   "13.233.149.201": {
    "in_edl": true,
@@ -384,12 +389,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 6
   },
   "13.233.151.225": {
    "in_edl": true,
@@ -397,12 +402,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 12
+   "offset_ms": 3
   },
   "13.233.186.146": {
    "in_edl": true,
@@ -410,12 +415,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -1
+   "offset_ms": 1
   },
   "13.236.135.188": {
    "in_edl": true,
@@ -423,10 +428,10 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
-   "probe_ok": false,
-   "probe_error": "timeout",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
+   "probe_ok": true,
+   "probe_error": null,
    "stratum": 4,
    "offset_ms": -37
   },
@@ -436,12 +441,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -27
+   "offset_ms": -36
   },
   "13.239.60.174": {
    "in_edl": true,
@@ -449,12 +454,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -34
+   "offset_ms": -44
   },
   "13.244.103.142": {
    "in_edl": true,
@@ -462,12 +467,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 24
+   "offset_ms": 2
   },
   "13.244.141.81": {
    "in_edl": true,
@@ -475,12 +480,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-21",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 17
+   "offset_ms": 13
   },
   "13.244.144.114": {
    "in_edl": true,
@@ -488,12 +493,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 21
+   "offset_ms": 1
   },
   "13.244.161.105": {
    "in_edl": true,
@@ -501,12 +506,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-21",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 24
+   "offset_ms": 15
   },
   "13.244.167.235": {
    "in_edl": true,
@@ -514,12 +519,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 9
   },
   "13.245.234.238": {
    "in_edl": true,
@@ -527,12 +532,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-21",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 16
   },
   "13.246.8.192": {
    "in_edl": true,
@@ -540,12 +545,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-21",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 9
   },
   "13.246.36.21": {
    "in_edl": true,
@@ -553,12 +558,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 15
   },
   "13.246.139.30": {
    "in_edl": true,
@@ -566,12 +571,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 8
   },
   "13.246.221.109": {
    "in_edl": true,
@@ -579,12 +584,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-21",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 19
+   "offset_ms": 15
   },
   "15.152.48.157": {
    "in_edl": true,
@@ -592,12 +597,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 3
   },
   "15.152.63.145": {
    "in_edl": true,
@@ -605,12 +610,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 10
+   "offset_ms": 5
   },
   "15.152.156.115": {
    "in_edl": true,
@@ -618,12 +623,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 3
   },
   "15.152.214.99": {
    "in_edl": true,
@@ -631,12 +636,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 5
   },
   "15.152.226.72": {
    "in_edl": true,
@@ -644,12 +649,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 3
   },
   "15.152.226.86": {
    "in_edl": true,
@@ -657,12 +662,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 1
   },
   "15.168.7.222": {
    "in_edl": true,
@@ -670,12 +675,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 2
   },
   "15.168.66.130": {
    "in_edl": true,
@@ -683,12 +688,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 2
   },
   "15.168.66.245": {
    "in_edl": true,
@@ -696,12 +701,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 6
   },
   "15.185.115.112": {
    "in_edl": false,
@@ -709,8 +714,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": false,
    "probe_error": "timeout",
    "stratum": null,
@@ -722,12 +727,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 7
+   "offset_ms": -1
   },
   "15.228.63.248": {
    "in_edl": true,
@@ -735,12 +740,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 5
   },
   "15.228.87.217": {
    "in_edl": true,
@@ -748,12 +753,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 5
   },
   "16.24.226.27": {
    "in_edl": false,
@@ -761,8 +766,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": false,
    "probe_error": "timeout",
    "stratum": null,
@@ -774,12 +779,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 10
+   "offset_ms": 3
   },
   "18.134.134.61": {
    "in_edl": true,
@@ -787,12 +792,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 10
+   "offset_ms": 0
   },
   "18.228.117.185": {
    "in_edl": true,
@@ -800,12 +805,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 4
   },
   "18.228.136.243": {
    "in_edl": true,
@@ -813,12 +818,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 15
+   "offset_ms": 4
   },
   "18.229.138.194": {
    "in_edl": true,
@@ -826,12 +831,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 11
+   "offset_ms": 5
   },
   "18.230.189.239": {
    "in_edl": true,
@@ -839,12 +844,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 12
+   "offset_ms": 3
   },
   "35.88.92.45": {
    "in_edl": true,
@@ -852,12 +857,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 4
   },
   "35.89.151.215": {
    "in_edl": true,
@@ -865,12 +870,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 22
+   "offset_ms": 9
   },
   "35.91.110.229": {
    "in_edl": true,
@@ -878,10 +883,10 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
-   "probe_ok": true,
-   "probe_error": null,
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
+   "probe_ok": false,
+   "probe_error": "timeout",
    "stratum": 4,
    "offset_ms": 18
   },
@@ -891,12 +896,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 19
+   "offset_ms": 6
   },
   "35.92.54.214": {
    "in_edl": true,
@@ -904,12 +909,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 17
+   "offset_ms": 11
   },
   "35.160.148.242": {
    "in_edl": true,
@@ -917,12 +922,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 15
+   "offset_ms": 11
   },
   "35.176.149.124": {
    "in_edl": true,
@@ -930,12 +935,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 6
   },
   "35.178.178.65": {
    "in_edl": true,
@@ -943,12 +948,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 10
+   "offset_ms": 3
   },
   "44.201.148.133": {
    "in_edl": true,
@@ -956,12 +961,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "52.26.174.155": {
    "in_edl": true,
@@ -969,8 +974,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
@@ -982,12 +987,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 18
+   "offset_ms": 11
   },
   "52.63.91.93": {
    "in_edl": true,
@@ -995,12 +1000,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -26
+   "offset_ms": -37
   },
   "52.64.168.208": {
    "in_edl": true,
@@ -1008,12 +1013,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": -28
+   "offset_ms": -49
   },
   "52.67.6.125": {
    "in_edl": true,
@@ -1021,12 +1026,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 15
+   "offset_ms": 3
   },
   "52.67.204.131": {
    "in_edl": true,
@@ -1034,12 +1039,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 2
   },
   "52.207.222.50": {
    "in_edl": true,
@@ -1047,12 +1052,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 6
   },
   "54.81.127.33": {
    "in_edl": true,
@@ -1060,12 +1065,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "54.90.191.9": {
    "in_edl": true,
@@ -1073,12 +1078,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "54.188.179.186": {
    "in_edl": true,
@@ -1086,12 +1091,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 16
+   "offset_ms": 9
   },
   "54.197.201.248": {
    "in_edl": true,
@@ -1099,12 +1104,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 5
   },
   "54.210.225.137": {
    "in_edl": true,
@@ -1112,12 +1117,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 6
   },
   "54.232.53.122": {
    "in_edl": true,
@@ -1125,12 +1130,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 14
+   "offset_ms": 3
   },
   "54.232.198.46": {
    "in_edl": true,
@@ -1138,12 +1143,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 15
+   "offset_ms": 5
   },
   "54.245.74.0": {
    "in_edl": true,
@@ -1151,12 +1156,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 6
   },
   "65.0.119.56": {
    "in_edl": true,
@@ -1164,12 +1169,12 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 4,
-   "offset_ms": 13
+   "offset_ms": 5
   },
   "157.175.184.72": {
    "in_edl": false,
@@ -1177,8 +1182,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": false,
    "probe_error": "timeout",
    "stratum": null,
@@ -1190,8 +1195,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": false,
    "probe_error": "timeout",
    "stratum": null,
@@ -1203,8 +1208,8 @@
     "time.aws.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-22",
-   "last_probe_at": "2026-10-22",
+   "last_seen_dns": "2026-10-23",
+   "last_probe_at": "2026-10-23",
    "probe_ok": false,
    "probe_error": "timeout",
    "stratum": null,
