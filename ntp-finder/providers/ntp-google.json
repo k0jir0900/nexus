@@ -2,7 +2,7 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "google",
- "generated_at": "2026-10-25T00:19:19-03:00",
+ "generated_at": "2026-10-26T00:19:25-03:00",
  "summary": {
   "servers_total": 4,
   "servers_verified": 4,
@@ -76,12 +76,12 @@
     "time1.google.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-25",
-   "last_probe_at": "2026-10-25",
+   "last_seen_dns": "2026-10-26",
+   "last_probe_at": "2026-10-26",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 3
+   "offset_ms": 2
   },
   "216.239.35.4": {
    "in_edl": true,
@@ -90,12 +90,12 @@
     "time2.google.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-25",
-   "last_probe_at": "2026-10-25",
+   "last_seen_dns": "2026-10-26",
+   "last_probe_at": "2026-10-26",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 1
+   "offset_ms": 2
   },
   "216.239.35.8": {
    "in_edl": true,
@@ -104,8 +104,8 @@
     "time3.google.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-25",
-   "last_probe_at": "2026-10-25",
+   "last_seen_dns": "2026-10-26",
+   "last_probe_at": "2026-10-26",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -118,8 +118,8 @@
     "time4.google.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-10-25",
-   "last_probe_at": "2026-10-25",
+   "last_seen_dns": "2026-10-26",
+   "last_probe_at": "2026-10-26",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,

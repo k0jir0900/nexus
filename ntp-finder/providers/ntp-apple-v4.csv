@@ -90,8 +90,7 @@ ip,fqdn
 17.253.68.253,time.asia.apple.com
 17.253.68.253,time.euro.apple.com
 17.253.83.251,time.apple.com
-17.253.83.251,time.euro.apple.com
-17.253.83.253,time.apple.com
+17.253.83.251,time.asia.apple.com
 17.253.83.253,time.asia.apple.com
 17.253.83.253,time.euro.apple.com
 17.253.108.125,time.apple.com
@@ -106,4 +105,6 @@ ip,fqdn
 17.253.114.35,time.apple.com
 17.253.114.35,time.asia.apple.com
 17.253.114.35,time.euro.apple.com
+17.253.114.43,time.apple.com
+17.253.114.43,time.asia.apple.com
 17.253.114.43,time.euro.apple.com
