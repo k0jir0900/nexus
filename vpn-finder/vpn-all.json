@@ -1,8 +1,8 @@
 {
  "schema_version": "2.0",
  "generator": "vpn-finder",
- "generated_at": "2026-10-31T00:00:00-03:00",
- "run_date": "2026-10-31",
+ "generated_at": "2026-11-01T00:00:00-03:00",
+ "run_date": "2026-11-01",
  "window_days": 30,
  "sources": {
   "nordvpn": {
@@ -23,55 +23,55 @@
    "url": "https://serverlist.piaservers.net/vpninfo/servers/v6",
    "status": "ok",
    "error": null,
-   "addresses": 1632,
-   "hostnames": 373
+   "addresses": 1664,
+   "hostnames": 379
   },
   "surfshark": {
    "url": "https://api.surfshark.com/v3/server/clusters",
    "status": "ok",
    "error": null,
-   "addresses": 277,
-   "hostnames": 141
+   "addresses": 279,
+   "hostnames": 142
   },
   "ipvanish": {
    "url": "https://configs.ipvanish.com/configs/configs.zip",
    "status": "ok",
    "error": null,
-   "addresses": 3594,
-   "hostnames": 3594
+   "addresses": 3588,
+   "hostnames": 3588
   }
  },
  "dns": {
-  "attempted": 3741,
-  "answered": 3735,
+  "attempted": 3740,
+  "answered": 3730,
   "empty": 0,
-  "failed": 6,
-  "with_ipv4": 3735,
+  "failed": 10,
+  "with_ipv4": 3730,
   "with_ipv6": 0,
-  "success_pct": 99.8
+  "success_pct": 99.7
  },
  "totals": {
-  "ips": 21710,
-  "ipv4": 21148,
+  "ips": 21572,
+  "ipv4": 21010,
   "ipv6": 562,
-  "pairs": 21890,
-  "hostnames": 12458,
-  "active": 13860,
-  "retained": 7850
+  "pairs": 21765,
+  "hostnames": 12315,
+  "active": 13888,
+  "retained": 7684
  },
  "changes": {
-  "added": 84,
-  "removed": 178
+  "added": 89,
+  "removed": 227
  },
  "cidr": {
-  "ipv4_blocks": 19611,
+  "ipv4_blocks": 19489,
   "ipv6_blocks": 562
  },
  "segments": {
   "ipv4_24": {
-   "total": 1776,
-   "exclusive": 1664,
-   "ambiguous": 112,
+   "total": 1772,
+   "exclusive": 1661,
+   "ambiguous": 111,
    "exclusive_pct": 93.7
   },
   "ipv6_64": {
@@ -83,7 +83,7 @@
  },
  "providers": {
   "nordvpn": {
-   "ipv4": 7434,
+   "ipv4": 7287,
    "ipv6": 0
   },
   "mullvad": {
@@ -91,7 +91,7 @@
    "ipv6": 562
   },
   "pia": {
-   "ipv4": 6827,
+   "ipv4": 6836,
    "ipv6": 0
   },
   "surfshark": {
