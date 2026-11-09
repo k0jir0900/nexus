@@ -287,6 +287,7 @@
 80.66.197.0/24	mullvad
 80.246.31.0/24	surfshark
 81.19.208.0/24	surfshark
+81.19.209.0/24	surfshark
 81.19.217.0/24	nordvpn
 81.19.223.0/24	nordvpn
 81.92.206.0/24	surfshark
@@ -405,7 +406,7 @@
 89.117.104.0/24	surfshark
 89.149.52.0/24	pia
 89.187.160.0/24	surfshark
-89.187.161.0/24	nordvpn
+89.187.161.0/24	AMBIGUO
 89.187.163.0/24	surfshark
 89.187.168.0/24	surfshark
 89.187.171.0/24	nordvpn
@@ -1123,7 +1124,6 @@
 185.195.232.0/24	mullvad
 185.195.233.0/24	mullvad
 185.196.0.0/24	surfshark
-185.198.190.0/24	surfshark
 185.198.191.0/24	surfshark
 185.201.188.0/24	mullvad
 185.204.1.0/24	mullvad
@@ -1495,6 +1495,7 @@
 188.240.58.0/24	surfshark
 188.240.71.0/24	surfshark
 188.241.80.0/24	pia
+188.241.120.0/24	surfshark
 188.241.157.0/24	nordvpn
 188.241.176.0/24	mullvad
 188.241.178.0/24	surfshark
