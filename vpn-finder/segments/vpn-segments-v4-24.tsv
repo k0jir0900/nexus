@@ -546,7 +546,6 @@
 116.90.73.0/24	ipvanish
 116.90.74.0/24	AMBIGUO
 116.90.75.0/24	ipvanish
-117.120.9.0/24	pia
 121.127.47.0/24	nordvpn
 124.150.139.0/24	surfshark
 129.227.46.0/24	mullvad
@@ -1545,7 +1544,6 @@
 193.148.17.0/24	surfshark
 193.176.86.0/24	surfshark
 193.176.87.0/24	nordvpn
-193.228.56.0/24	surfshark
 193.228.206.0/24	nordvpn
 193.239.87.0/24	nordvpn
 194.0.213.0/24	surfshark
