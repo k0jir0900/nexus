@@ -312,6 +312,7 @@
 82.197.75.0/24	nordvpn
 83.97.112.0/24	surfshark
 83.97.115.0/24	surfshark
+83.98.223.0/24	pia
 83.229.26.0/24	nordvpn
 84.17.35.0/24	AMBIGUO
 84.17.36.0/24	AMBIGUO
@@ -324,6 +325,7 @@
 84.17.54.0/24	nordvpn
 84.17.57.0/24	nordvpn
 84.17.58.0/24	surfshark
+84.17.60.0/24	surfshark
 84.17.62.0/24	surfshark
 84.20.4.0/24	nordvpn
 84.20.16.0/24	surfshark
