@@ -7,6 +7,7 @@ ip,fqdn
 3.26.39.65,time.aws.com
 3.26.223.119,time.aws.com
 3.87.127.143,time.aws.com
+3.94.91.31,time.aws.com
 3.109.185.52,time.aws.com
 3.111.45.100,time.aws.com
 13.40.94.30,time.aws.com
@@ -24,13 +25,8 @@ ip,fqdn
 13.236.135.188,time.aws.com
 13.238.254.157,time.aws.com
 13.239.60.174,time.aws.com
-13.244.103.142,time.aws.com
-13.244.141.81,time.aws.com
-13.244.144.114,time.aws.com
 13.244.161.105,time.aws.com
-13.244.167.235,time.aws.com
 13.245.234.238,time.aws.com
-13.246.8.192,time.aws.com
 13.246.36.21,time.aws.com
 13.246.139.30,time.aws.com
 13.246.221.109,time.aws.com
@@ -71,7 +67,11 @@ ip,fqdn
 52.67.204.131,time.aws.com
 52.207.222.50,time.aws.com
 54.81.127.33,time.aws.com
+54.90.191.9,time.aws.com
 54.188.179.186,time.aws.com
+54.197.201.248,time.aws.com
+54.210.225.137,time.aws.com
+54.221.134.209,time.aws.com
 54.232.53.122,time.aws.com
 54.232.198.46,time.aws.com
 54.245.74.0,time.aws.com
