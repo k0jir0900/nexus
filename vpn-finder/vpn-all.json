@@ -1,101 +1,101 @@
 {
  "schema_version": "2.0",
  "generator": "vpn-finder",
- "generated_at": "2026-11-19T00:00:00-03:00",
- "run_date": "2026-11-19",
+ "generated_at": "2026-11-20T00:00:00-03:00",
+ "run_date": "2026-11-20",
  "window_days": 30,
  "sources": {
   "nordvpn": {
    "url": "https://api.nordvpn.com/v1/servers?limit=0",
    "status": "ok",
    "error": null,
-   "addresses": 6878,
-   "hostnames": 6878
+   "addresses": 6956,
+   "hostnames": 6956
   },
   "mullvad": {
    "url": "https://api.mullvad.net/www/relays/all/",
    "status": "ok",
    "error": null,
-   "addresses": 1128,
-   "hostnames": 569
+   "addresses": 1134,
+   "hostnames": 572
   },
   "pia": {
    "url": "https://serverlist.piaservers.net/vpninfo/servers/v6",
    "status": "ok",
    "error": null,
-   "addresses": 1638,
-   "hostnames": 376
+   "addresses": 1597,
+   "hostnames": 369
   },
   "surfshark": {
    "url": "https://api.surfshark.com/v3/server/clusters",
    "status": "ok",
    "error": null,
-   "addresses": 282,
-   "hostnames": 142
+   "addresses": 277,
+   "hostnames": 139
   },
   "ipvanish": {
    "url": "https://configs.ipvanish.com/configs/configs.zip",
    "status": "ok",
    "error": null,
-   "addresses": 3586,
-   "hostnames": 3586
+   "addresses": 3580,
+   "hostnames": 3580
   }
  },
  "dns": {
-  "attempted": 3740,
-  "answered": 3728,
+  "attempted": 3733,
+  "answered": 3719,
   "empty": 0,
-  "failed": 12,
-  "with_ipv4": 3728,
+  "failed": 14,
+  "with_ipv4": 3719,
   "with_ipv6": 0,
-  "success_pct": 99.7
+  "success_pct": 99.6
  },
  "totals": {
-  "ips": 21476,
-  "ipv4": 20905,
-  "ipv6": 571,
-  "pairs": 21855,
-  "hostnames": 12379,
-  "active": 13512,
-  "retained": 7964
+  "ips": 21496,
+  "ipv4": 20923,
+  "ipv6": 573,
+  "pairs": 21896,
+  "hostnames": 12388,
+  "active": 13544,
+  "retained": 7952
  },
  "changes": {
-  "added": 107,
-  "removed": 105
+  "added": 122,
+  "removed": 102
  },
  "cidr": {
-  "ipv4_blocks": 19481,
-  "ipv6_blocks": 571
+  "ipv4_blocks": 19519,
+  "ipv6_blocks": 573
  },
  "segments": {
   "ipv4_24": {
-   "total": 1777,
-   "exclusive": 1666,
-   "ambiguous": 111,
+   "total": 1780,
+   "exclusive": 1670,
+   "ambiguous": 110,
    "exclusive_pct": 93.8
   },
   "ipv6_64": {
-   "total": 452,
-   "exclusive": 452,
+   "total": 454,
+   "exclusive": 454,
    "ambiguous": 0,
    "exclusive_pct": 100.0
   }
  },
  "providers": {
   "nordvpn": {
-   "ipv4": 7298,
+   "ipv4": 7290,
    "ipv6": 0
   },
   "mullvad": {
-   "ipv4": 580,
-   "ipv6": 571
+   "ipv4": 582,
+   "ipv6": 573
   },
   "pia": {
-   "ipv4": 6748,
+   "ipv4": 6766,
    "ipv6": 0
   },
   "surfshark": {
-   "ipv4": 2680,
+   "ipv4": 2686,
    "ipv6": 0
   },
   "ipvanish": {
