@@ -2,16 +2,16 @@
  "schema_version": "1.0",
  "generator": "ntp-finder",
  "provider": "apple",
- "generated_at": "2026-11-20T00:18:01-03:00",
+ "generated_at": "2026-11-21T00:17:14-03:00",
  "summary": {
   "servers_total": 36,
-  "servers_verified": 33,
+  "servers_verified": 35,
   "servers_probed": 36,
   "window_days": 14,
-  "discovered_last_run": 35,
+  "discovered_last_run": 36,
   "hosts": 3,
   "regions": 42,
-  "dns_queries": 456
+  "dns_queries": 462
  },
  "hosts": [
   {
@@ -19,7 +19,7 @@
    "canonical": "time.g.aaplimg.com",
    "zone": "g.aaplimg.com",
    "authoritative_ok": true,
-   "found": 35,
+   "found": 36,
    "ips": [
     "17.253.2.37",
     "17.253.2.43",
@@ -55,6 +55,7 @@
     "17.253.108.125",
     "17.253.110.125",
     "17.253.110.253",
+    "17.253.114.35",
     "17.253.114.43"
    ]
   },
@@ -63,7 +64,7 @@
    "canonical": "time-osx.g.aaplimg.com",
    "zone": "g.aaplimg.com",
    "authoritative_ok": true,
-   "found": 35,
+   "found": 36,
    "ips": [
     "17.253.2.37",
     "17.253.2.43",
@@ -99,6 +100,7 @@
     "17.253.108.125",
     "17.253.110.125",
     "17.253.110.253",
+    "17.253.114.35",
     "17.253.114.43"
    ]
   },
@@ -139,10 +141,10 @@
     "17.253.68.251",
     "17.253.68.253",
     "17.253.83.251",
-    "17.253.83.253",
     "17.253.108.125",
     "17.253.110.125",
     "17.253.110.253",
+    "17.253.114.35",
     "17.253.114.43"
    ]
   }
@@ -156,8 +158,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -171,12 +173,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
-   "probe_ok": false,
-   "probe_error": "timeout",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
+   "probe_ok": true,
+   "probe_error": null,
    "stratum": 1,
-   "offset_ms": 10
+   "offset_ms": 6
   },
   "17.253.2.45": {
    "in_edl": true,
@@ -186,12 +188,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
-   "probe_ok": false,
-   "probe_error": "timeout",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
+   "probe_ok": true,
+   "probe_error": null,
    "stratum": 1,
-   "offset_ms": 11
+   "offset_ms": -50
   },
   "17.253.4.37": {
    "in_edl": true,
@@ -201,8 +203,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -216,12 +218,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 10
+   "offset_ms": 6
   },
   "17.253.10.149": {
    "in_edl": true,
@@ -231,8 +233,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -246,8 +248,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -261,8 +263,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -276,8 +278,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -291,8 +293,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -306,12 +308,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 7
+   "offset_ms": 6
   },
   "17.253.16.125": {
    "in_edl": true,
@@ -321,12 +323,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 10
+   "offset_ms": 6
   },
   "17.253.16.253": {
    "in_edl": true,
@@ -336,12 +338,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 9
+   "offset_ms": 5
   },
   "17.253.18.99": {
    "in_edl": true,
@@ -351,12 +353,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": 10
+   "offset_ms": 13
   },
   "17.253.18.131": {
    "in_edl": true,
@@ -366,12 +368,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": 6
+   "offset_ms": 0
   },
   "17.253.20.45": {
    "in_edl": true,
@@ -381,12 +383,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 14
+   "offset_ms": 11
   },
   "17.253.28.37": {
    "in_edl": true,
@@ -396,12 +398,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-15",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 4
+   "offset_ms": 1
   },
   "17.253.28.45": {
    "in_edl": true,
@@ -411,12 +413,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-15",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 5
+   "offset_ms": 0
   },
   "17.253.34.131": {
    "in_edl": true,
@@ -426,12 +428,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": -9
+   "offset_ms": -11
   },
   "17.253.38.35": {
    "in_edl": true,
@@ -441,12 +443,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 2
+   "offset_ms": 0
   },
   "17.253.38.43": {
    "in_edl": true,
@@ -456,8 +458,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
@@ -471,12 +473,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": 2
+   "offset_ms": -1
   },
   "17.253.60.45": {
    "in_edl": true,
@@ -486,12 +488,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": 1
+   "offset_ms": -2
   },
   "17.253.66.37": {
    "in_edl": true,
@@ -501,12 +503,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": -35
+   "offset_ms": -43
   },
   "17.253.66.45": {
    "in_edl": true,
@@ -516,12 +518,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": -37
+   "offset_ms": -42
   },
   "17.253.68.123": {
    "in_edl": true,
@@ -531,12 +533,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 3
+   "offset_ms": -2
   },
   "17.253.68.125": {
    "in_edl": true,
@@ -546,12 +548,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 2
+   "offset_ms": -2
   },
   "17.253.68.251": {
    "in_edl": true,
@@ -561,12 +563,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
-   "probe_ok": false,
-   "probe_error": "timeout",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
+   "probe_ok": true,
+   "probe_error": null,
    "stratum": 1,
-   "offset_ms": 1
+   "offset_ms": -3
   },
   "17.253.68.253": {
    "in_edl": true,
@@ -576,12 +578,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 2
+   "offset_ms": -3
   },
   "17.253.83.251": {
    "in_edl": true,
@@ -591,12 +593,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 11
+   "offset_ms": 5
   },
   "17.253.83.253": {
    "in_edl": true,
@@ -606,12 +608,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 10
+   "offset_ms": 11
   },
   "17.253.108.125": {
    "in_edl": true,
@@ -621,12 +623,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 3
+   "offset_ms": 4
   },
   "17.253.110.125": {
    "in_edl": true,
@@ -636,12 +638,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
-   "offset_ms": -4
+   "offset_ms": -3
   },
   "17.253.110.253": {
    "in_edl": true,
@@ -651,8 +653,8 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 2,
@@ -666,10 +668,10 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-19",
-   "last_probe_at": "2026-11-20",
-   "probe_ok": true,
-   "probe_error": null,
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
+   "probe_ok": false,
+   "probe_error": "timeout",
    "stratum": 1,
    "offset_ms": 13
   },
@@ -681,12 +683,12 @@
     "time.euro.apple.com"
    ],
    "first_seen": "2026-10-11",
-   "last_seen_dns": "2026-11-20",
-   "last_probe_at": "2026-11-20",
+   "last_seen_dns": "2026-11-21",
+   "last_probe_at": "2026-11-21",
    "probe_ok": true,
    "probe_error": null,
    "stratum": 1,
-   "offset_ms": 15
+   "offset_ms": 13
   }
  }
 }
